@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:4bbef12a55c263c43ce5160c5c75f677$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="TestPlayer.png" width="256" height="256">
+    <sprite n="obj_FireGun000" x="0" y="0" w="64" h="64"/>
+    <sprite n="obj_FireGun001" x="64" y="0" w="64" h="64"/>
+    <sprite n="obj_Idle000" x="128" y="0" w="64" h="64"/>
+    <sprite n="obj_Idle001" x="192" y="0" w="64" h="64"/>
+    <sprite n="obj_Idle002" x="0" y="64" w="64" h="64"/>
+    <sprite n="obj_Idle003" x="64" y="64" w="64" h="64"/>
+    <sprite n="obj_Jump000" x="128" y="64" w="64" h="64"/>
+    <sprite n="obj_JumpLand000" x="192" y="64" w="64" h="64"/>
+    <sprite n="obj_Run000" x="0" y="128" w="64" h="64"/>
+    <sprite n="obj_Run001" x="64" y="128" w="64" h="64"/>
+    <sprite n="obj_Run002" x="128" y="128" w="64" h="64"/>
+    <sprite n="obj_Run003" x="192" y="128" w="64" h="64"/>
+    <sprite n="obj_Run004" x="0" y="192" w="64" h="64"/>
+    <sprite n="obj_Run005" x="64" y="192" w="64" h="64"/>
+    <sprite n="obj_Run006" x="128" y="192" w="64" h="64"/>
+    <sprite n="obj_Run007" x="192" y="192" w="64" h="64"/>
+</TextureAtlas>
