@@ -35,6 +35,8 @@
 
 		// set default one
 		this.setCurrentAnimation("idle");
+		
+		//me.video.getScreenCanvas().addEventListener('mousemove', onMouseEvent, false);
 
 
 	},
@@ -47,6 +49,7 @@
 	------			*/
 	update : function ()
 	{
+		
 		var doClimb = false;
 		
 		if (me.input.isKeyPressed('left')) {

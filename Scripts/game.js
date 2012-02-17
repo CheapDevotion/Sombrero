@@ -66,6 +66,7 @@ var sombrero	=
 		me.input.bindKey(me.input.KEY.W,"up");
 		me.input.bindKey(me.input.KEY.S,"down");
 		me.input.bindKey(me.input.KEY.SPACE,"jump", true);
+		me.input.bindKey(me.input.KEY.F,"fullscreen", true);
 		
 		//me.debug.renderHitBox = true;
       
